@@ -11,6 +11,9 @@ const PlaceholderImage = require("./assets/images/background-image.png");
 
 export default function App() {
   
+
+  // versão nova 
+  
   const pickImageAsync = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
